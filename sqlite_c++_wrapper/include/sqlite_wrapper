@@ -1,0 +1,74 @@
+#ifndef $__sqlite_wrapper__
+#define $__sqlite_wrapper__ 123
+#include<sqlite3.h>
+#include<isqlite_wrapper>
+#include<sqlite_exception>
+#include<string>
+#include<iostream>
+#include<map>
+using namespace std;
+namespace sqlite
+{
+class Row
+{
+private:
+map<string,string> rowData;
+
+public:
+Row();
+Row(map<string,string> &rowData);
+Row(const Row &other);
+Row & operator=(const Row &other);
+void print(string str);
+int getInt(string columnName);
+string getString(string columnName);
+~Row();
+};
+
+class Rows
+{
+private:
+sqlite3 *db;
+string sql;
+string FILE_NAME;
+int rowCount;
+int currentRow;
+int rowCountIt;
+map<string,string> rowData;
+int rowFetched;
+
+public:
+static int getRowCount(void *ptr,int columnCount,char **dataPtr,char **columnNamePtr);
+static int getRowData(void *ptr,int columnCount,char **dataPtr,char **columnNamePtr);
+Rows();
+Rows(string sql,sqlite3 *db,string fileName);
+Rows(const Rows &other);
+void openFile();
+int hasMoreRows();
+Row getRow();
+void print(string str);
+~Rows();
+};
+
+class SqliteDB:public abc::ISqliteDB
+{
+private:
+sqlite3 *db;
+char *errorMessage;
+int result;
+
+public:
+string FILE_NAME;
+SqliteDB();
+SqliteDB(string fileName);
+void open(string fileName);
+void executeCreateTable(string &sql);
+void executeInsert(string &sql);
+void executeUpdate(string &sql);
+void executeDelete(string &sql);
+Rows selectRows(string &sql);
+void close();
+~SqliteDB();
+};
+}
+#endif

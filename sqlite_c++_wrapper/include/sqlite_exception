@@ -1,0 +1,17 @@
+#ifndef $__sqlite_exception__
+#define $__sqlite_exception__ 123
+#include<string>
+using namespace std;
+namespace sqlite
+{
+class SQLiteException:public exception
+{
+string message;
+public:
+SQLiteException();
+SQLiteException(const char *message);
+virtual ~SQLiteException() throw();
+const char * what() const throw();
+};
+}
+#endif
