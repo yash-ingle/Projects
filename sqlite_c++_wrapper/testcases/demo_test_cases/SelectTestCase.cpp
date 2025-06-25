@@ -16,8 +16,10 @@ rows=sqliteDB.selectRows(sql);
 Row row;
 int rollnumber;
 string name;
+int x=0;
 while(rows.hasMoreRows())
 {
+if(x==0) x=1; 
 cout<<"Employee Details"<<endl;
 row=rows.getRow();
 int id=row.getInt("EMPLOYEE_ID");
@@ -32,6 +34,7 @@ string dept=row.getString("DEPARTMENT");
 cout<<"Department : "<<dept<<endl;
 cout<<"*********************************"<<endl;
 }
+if(x==0) cout<<"No Data Found"<<endl;
 }catch(SQLiteException &sqliteException)
 {
 cout<<"SQLite Error: "<<sqliteException.what()<<endl;

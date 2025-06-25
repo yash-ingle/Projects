@@ -8,7 +8,7 @@ int main()
 try
 {
 SqliteDB sqliteDB("../../db/employee_data.db");
-string sql="DELETE FROM Employee WHERE NAME='Yash Kumar Ingle';";
+string sql="DELETE FROM Employee;";
 sqliteDB.executeInsert(sql);
 sqliteDB.close();
 cout<<"Successfully deleted"<<endl;

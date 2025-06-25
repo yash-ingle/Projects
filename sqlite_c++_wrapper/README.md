@@ -17,15 +17,46 @@ With features like automatic memory management and easy integration with C++ dat
    - [https://sqlite.org/download.html](https://sqlite.org/download.html).
 
 ## How to use SQLite C++ Wrapper
-**For Windows User**
-*Setup*
+### For Windows User
+**Setup**
 1. Open command prompt and go to the `src` folder.
 2. Run `createLibrary.bat`. (If everything is fine, it will generate `sqliteWrapper.lib` file)
 
-![Building Library](Img/Windows/1.PNG)
+![Building Library](img/windows/1.PNG)
 
-**For Linux User**
-*Setup*
+**How to run Demo Test Cases [Optional]**
+- Create Table.
+1. Open command prompt and go to the `testcases\demo_test_cases` folder.
+2. Run `compileDemoTestCase.bat CreateTableTestCase.cpp`.
+
+![Create Employee Table](img/windows/2.PNG)
+
+- Insert Data Into Table.
+1. Open command prompt and go to the `testcases\demo_test_cases` folder.
+2. Run `compileDemoTestCase.bat InsertTestCase.cpp`.
+
+![Insert Data Into Employee Table](img/windows/3.PNG)
+
+- Retrieve Data From Table.
+1. Open command prompt and go to the `testcases\demo_test_cases` folder.
+2. Run `compileDemoTestCase.bat SelectTestCase.cpp`.
+
+![Retrieve Data From Employee Table](img/windows/4.PNG)
+
+- Update Data From Table.
+1. Open command prompt and go to the `testcases\demo_test_cases` folder.
+2. Run `compileDemoTestCase.bat UpdTestCase.cpp`.
+
+![Update Data From Employee Table](img/windows/5.PNG)
+
+- Delete Data From Table.
+1. Open command prompt and go to the `testcases\demo_test_cases` folder.
+2. Run `compileDemoTestCase.bat DelTestCase.cpp`.
+
+![Delete Data From Employee Table](img/windows/6.PNG)
+
+### For Linux User
+**Setup**
 1. Open terminal and go to the `src` folder.
 2. Run `chmod +x createLibrary.sh` and `dos2unix createLibrary.sh`.
-3. Run `./createLibrary.sh` (If everything is fine, it will generate `libsqliteWrapper.a` file)
+3. Run `./createLibrary.sh`. (If everything is fine, it will generate `libsqliteWrapper.a` file)
