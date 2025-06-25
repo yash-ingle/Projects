@@ -25,33 +25,33 @@ With features like automatic memory management and easy integration with C++ dat
 ![Building Library](img/windows/1.PNG)
 
 **How to run Demo Test Cases [Optional]**
-- Create Table.
-  1. Open command prompt and go to the `testcases\demo_test_cases` folder.
-  2. Run `compileDemoTestCase.bat CreateTableTestCase.cpp`.
+1. Create Table.
+   - Open command prompt and go to the `testcases\demo_test_cases` folder.
+   - Run `compileDemoTestCase.bat CreateTableTestCase.cpp`.
 
 ![Create Employee Table](img/windows/2.PNG)
 
-- Insert Data Into Table.
-  1. Open command prompt and go to the `testcases\demo_test_cases` folder.
-  2. Run `compileDemoTestCase.bat InsertTestCase.cpp`.
+2. Insert Data Into Table.
+   - Open command prompt and go to the `testcases\demo_test_cases` folder.
+   - Run `compileDemoTestCase.bat InsertTestCase.cpp`.
 
 ![Insert Data Into Employee Table](img/windows/3.PNG)
 
-- Retrieve Data From Table.
-  1. Open command prompt and go to the `testcases\demo_test_cases` folder.
-  2. Run `compileDemoTestCase.bat SelectTestCase.cpp`.
+3. Retrieve Data From Table.
+   - Open command prompt and go to the `testcases\demo_test_cases` folder.
+   - Run `compileDemoTestCase.bat SelectTestCase.cpp`.
 
 ![Retrieve Data From Employee Table](img/windows/4.PNG)
 
-- Update Data From Table.
-  1. Open command prompt and go to the `testcases\demo_test_cases` folder.
-  2. Run `compileDemoTestCase.bat UpdTestCase.cpp`.
+4. Update Data From Table.
+   - Open command prompt and go to the `testcases\demo_test_cases` folder.
+   - Run `compileDemoTestCase.bat UpdTestCase.cpp`.
 
 ![Update Data From Employee Table](img/windows/5.PNG)
 
-- Delete Data From Table.
-  1. Open command prompt and go to the `testcases\demo_test_cases` folder.
-  2. Run `compileDemoTestCase.bat DelTestCase.cpp`.
+5. Delete Data From Table.
+   - Open command prompt and go to the `testcases\demo_test_cases` folder.
+   - Run `compileDemoTestCase.bat DelTestCase.cpp`.
 
 ![Delete Data From Employee Table](img/windows/6.PNG)
 
