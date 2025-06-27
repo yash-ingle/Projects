@@ -16,7 +16,7 @@ With features like automatic memory management and easy integration with C++ dat
    Visit the website:  
    - [https://sqlite.org/download.html](https://sqlite.org/download.html).
 
-## How to use SQLite C++ Wrapper
+## How To Use SQLite C++ Wrapper
 ### For Windows User
 **Setup**
 1. Open command prompt and go to the `src` folder.
@@ -63,12 +63,12 @@ With features like automatic memory management and easy integration with C++ dat
 
 ![Building Library](img/linux/1.PNG)
 
-**How to Run Demo Test Cases [Optional]**
+**How To Run Demo Test Cases [Optional]**
 1. Create Table.
    - Open terminal and go to the `testcases/demo_test_cases` folder.
    - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
    - Run `./compileDemoTestCase.sh CreateTableTestCase.cpp`.
-   - Run `./CreateTableTestCase.cpp`.
+   - Run `./CreateTableTestCase.out`.
 
 ![Create Employee Table](img/linux/2.PNG)
 
@@ -76,7 +76,7 @@ With features like automatic memory management and easy integration with C++ dat
    - Open terminal and go to the `testcases/demo_test_cases` folder.
    - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
    - Run `./compileDemoTestCase.sh InsertTestCase.cpp`.
-   - Run `./InsertTestCase.cpp`.
+   - Run `./InsertTestCase.out`.
 
 ![Insert Data Into Employee Table](img/linux/3.PNG)
 
@@ -84,7 +84,7 @@ With features like automatic memory management and easy integration with C++ dat
    - Open terminal and go to the `testcases/demo_test_cases` folder.
    - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
    - Run `./compileDemoTestCase.sh SelectTestCase.cpp`.
-   - Run `./SelectTestCase.cpp`.
+   - Run `./SelectTestCase.out`.
 
 ![Retrieve Data From Employee Table](img/linux/4.PNG)
 
@@ -92,7 +92,7 @@ With features like automatic memory management and easy integration with C++ dat
    - Open terminal and go to the `testcases/demo_test_cases` folder.
    - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
    - Run `./compileDemoTestCase.sh UpdTestCase.cpp`.
-   - Run `./UpdTestCase.cpp`.
+   - Run `./UpdTestCase.out`.
 
 ![Update Data From Employee Table](img/linux/5.PNG)
 
@@ -100,7 +100,7 @@ With features like automatic memory management and easy integration with C++ dat
    - Open terminal and go to the `testcases/demo_test_cases` folder.
    - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
    - Run `./compileDemoTestCase.sh DelTestCase.cpp`.
-   - Run `./DelTestCase.cpp`.
+   - Run `./DelTestCase.out`.
 
 ![Delete Data From Employee Table](img/linux/6.PNG)
 
