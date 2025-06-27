@@ -24,7 +24,7 @@ With features like automatic memory management and easy integration with C++ dat
 
 ![Building Library](img/windows/1.PNG)
 
-**How to run Demo Test Cases [Optional]**
+**How to Run Demo Test Cases [Optional]**
 1. Create Table.
    - Open command prompt and go to the `testcases\demo_test_cases` folder.
    - Run `compileDemoTestCase.bat CreateTableTestCase.cpp`.
@@ -60,3 +60,48 @@ With features like automatic memory management and easy integration with C++ dat
 1. Open terminal and go to the `src` folder.
 2. Run `chmod +x createLibrary.sh` and `dos2unix createLibrary.sh`.
 3. Run `./createLibrary.sh`. (If everything is fine, it will generate `libsqliteWrapper.a` file)
+
+![Building Library](img/linux/1.PNG)
+
+**How to Run Demo Test Cases [Optional]**
+1. Create Table.
+   - Open terminal and go to the `testcases/demo_test_cases` folder.
+   - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
+   - Run `./compileDemoTestCase.sh CreateTableTestCase.cpp`.
+   - Run `./CreateTableTestCase.cpp`.
+
+![Create Employee Table](img/linux/2.PNG)
+
+2. Insert Data Into Table.
+   - Open terminal and go to the `testcases/demo_test_cases` folder.
+   - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
+   - Run `./compileDemoTestCase.sh InsertTestCase.cpp`.
+   - Run `./InsertTestCase.cpp`.
+
+![Insert Data Into Employee Table](img/linux/3.PNG)
+
+3. Retrieve Data From Table.
+   - Open terminal and go to the `testcases/demo_test_cases` folder.
+   - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
+   - Run `./compileDemoTestCase.sh SelectTestCase.cpp`.
+   - Run `./SelectTestCase.cpp`.
+
+![Retrieve Data From Employee Table](img/linux/4.PNG)
+
+4. Update Data From Table.
+   - Open terminal and go to the `testcases/demo_test_cases` folder.
+   - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
+   - Run `./compileDemoTestCase.sh UpdTestCase.cpp`.
+   - Run `./UpdTestCase.cpp`.
+
+![Update Data From Employee Table](img/linux/5.PNG)
+
+5. Delete Data From Table.
+   - Open terminal and go to the `testcases/demo_test_cases` folder.
+   - Run `chmod +x compileDemoTestCase.sh` and `dos2unix compileDemoTestCase.sh`. (Skip this, if previously done)
+   - Run `./compileDemoTestCase.sh DelTestCase.cpp`.
+   - Run `./DelTestCase.cpp`.
+
+![Delete Data From Employee Table](img/linux/6.PNG)
+
+
