@@ -1,22 +1,22 @@
-\*\*###Version 1\_HR Management System (Java)\*\*
+\### \_\_Version 1\_HR Management System (Java)\_\_
 
 
 
 Version 1\_HR Management System\\hr\\dl>gradle build
 
-\*\*SUCCESSFUL BUILD\*\*
+\_\_SUCCESSFUL BUILD\_\_
 
 
 
 Version 1\_HR Management System\\hr\\bl>gradle build
 
-\*\*SUCCESSFUL BUILD\*\*
+\_\_SUCCESSFUL BUILD\_\_
 
 
 
 Version 1\_HR Management System\\hr\\pl>gradle build
 
-\*\*SUCCESSFUL BUILD\*\*
+\_\_SUCCESSFUL BUILD\_\_
 
 
 
@@ -32,25 +32,25 @@ It opens the UI.
 
 
 
-\*\*###Version 2\_HR Management System (Java + MySQL)\*\*
+\### \_\_Version 2\_HR Management System (Java + MySQL)\_\_
 
 
 
 Version 2\_HR Management System\\hr\\dbdl>gradle build
 
-\*\*SUCCESSFUL BUILD\*\*
+\_\_SUCCESSFUL BUILD\_\_
 
 
 
 Version 2\_HR Management System\\hr\\bl>gradle build
 
-\*\*SUCCESSFUL BUILD\*\*
+\_\_SUCCESSFUL BUILD\_\_
 
 
 
 Version 2\_HR Management System\\hr\\pl>gradle build
 
-\*\*SUCCESSFUL BUILD\*\*
+\_\_SUCCESSFUL BUILD\_\_
 
 
 
@@ -59,6 +59,4 @@ Version 2\_HR Management System\\hr\\pl>java -classpath ..\\common\\dist\\hr-com
 
 
 It opens the UI
-
-
 
