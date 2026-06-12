@@ -27,6 +27,10 @@ Version 1\_HR Management System\\hr\\pl>__```java -classpath ..\common\dist\hr-c
 
 **It opens the user interface, allowing you to use all features of the application.**
 
+<p align="center">
+    <img src="https://github.com/yash-ingle/Projects/blob/main/HR%20Management%20System/screenshots/HR_Management_System_V2.png" width="400" height="800">
+</p>
+
 ---
 
 ## Version 2\_HR Management System (Java + MySQL)
@@ -112,3 +116,8 @@ Version 2\_HR Management System\\hr\\pl>__```java -classpath ..\common\dist\hr-c
 
 **It opens the user interface, allowing you to use all features of the application.**
 
+<p align="center">
+    <img src="https://github.com/yash-ingle/Projects/blob/main/HR%20Management%20System/screenshots/HR_Management_System_V2.png" width="400" height="800">
+</p>
+
+---
