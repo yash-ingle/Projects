@@ -20,16 +20,10 @@ Before setting up and running this project, ensure the following software is ins
 # How to Run
 ## Version 1\_HR Management System (Java)
 ### Build and Run
-Version 1\_HR Management System\\hr\\dl> __```gradle build```__\
+Version 1\_HR Management System (java)\hr\\pl>__```gradle build```__\
 **SUCCESSFUL BUILD**
 
-Version 1\_HR Management System\\hr\\bl>__```gradle build```__\
-**SUCCESSFUL BUILD**
-
-Version 1\_HR Management System\\hr\\pl>__```gradle build```__\
-**SUCCESSFUL BUILD**
-
-Version 1\_HR Management System\\hr\\pl>__```java -classpath ..\common\dist\hr-common.jar;..\dbdl\build\libs\dbdl.jar;..\bl\build\libs\bl.jar;..\pl\build\libs\pl.jar;..\pl\libs\*;. com.thinking.machines.hr.pl.Main```__
+Version 1\_HR Management System\\hr\\pl>__```java -classpath ..\common\dist\hr-common.jar;..\dl\dist\hr-dl-1.0.jar;..\bl\build\libs\bl.jar;..\pl\build\libs\pl.jar;..\pl\libs\*;. com.thinking.machines.hr.pl.Main```__
 
 **It opens the user interface, allowing you to use all features of the application.**
 
