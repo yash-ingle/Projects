@@ -6,7 +6,7 @@ Before running the application, ensure the following is installed and configured
 
 ---
 ## ClassAnalyzer
-- Open command prompt.
+- Open Command Prompt.
 - Go to the ```testcases``` folder.
 - Run the following commands.
 <img src="https://github.com/yash-ingle/Projects/blob/main/ClassAnalyzer/screenshots/ClassAnalyzer.PNG" >
