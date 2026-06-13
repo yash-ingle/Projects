@@ -2,13 +2,13 @@
 ## Prerequisites
 Before running the application, ensure the following is installed and configured:
 - Java 8 or later version
-- JAVA_HOME environment variable configured (optional but recommended)
+- JAVA_HOME environment variable configured (recommended)
 
 ---
 ## ClassAnalyzer
-- Open command prompt
-- Go to the ```testcases``` folder
-- Run the following commands
+- Open command prompt.
+- Go to the ```testcases``` folder.
+- Run the following commands.
 <img src="https://github.com/yash-ingle/Projects/blob/main/ClassAnalyzer/screenshots/ClassAnalyzer.PNG" >
 
 > **Note:** Do not forget to include the jar file (```..\jar_files\ClassAnalyzer.jar```) in the classpath.
@@ -21,7 +21,7 @@ This tool allows you to analyze a Java class at runtime using Reflection.
 
 You can retrieve information such as:
 
-- Methods of the class
-- Return types of methods
-- Method parameters
-- Fields (properties) of the class
+- Methods of the class.
+- Return types of methods.
+- Method parameters.
+- Fields (Properties) of the class.
