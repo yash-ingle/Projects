@@ -8,7 +8,8 @@ Before running the application, ensure the following is installed and configured
 ## SetterGetterGenerator
 - Open Command Prompt.
 - Go to the ```testcases\SetterGetterGeneratorTestCase``` folder.
-- Create the class for which you want to generate setter(s), and getter(s), [or a default constructor] (Example: Student class).\
+- Create the class for which you want to generate setter(s), and getter(s), [or a default constructor] (Example: Student class).
+
 File Name: **Student.java**
 ```java
 import java.util.*;
@@ -20,6 +21,7 @@ int age;
 Date dateOfBirth;
 }
 ```
+
 - Run ```javac Student.java``` to generate the **Student.class** file.
 - Run the following commands to generate the setter(s), and getter(s), [or a default constructor].
 
