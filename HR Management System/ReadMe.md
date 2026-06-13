@@ -18,18 +18,22 @@ Before setting up and running this project, ensure the following software is ins
 
 ---
 # How to Run
-## Version 1\_HR Management System (Java)
+## Version 1_HR Management System (Java)
 ### Build and Run
-Version 1\_HR Management System (java)\hr\\pl>__```gradle build```__\
+Version 1_HR Management System (Java)\hr\pl>__```gradle build```__\
 **SUCCESSFUL BUILD**
 
-Version 1\_HR Management System\\hr\\pl>__```java -classpath ..\common\dist\hr-common.jar;..\dl\dist\hr-dl-1.0.jar;..\bl\build\libs\bl.jar;..\pl\build\libs\pl.jar;..\pl\libs\*;. com.thinking.machines.hr.pl.Main```__
+Version 1_HR Management System (Java)\hr\pl>__```java -classpath ..\common\dist\hr-common.jar;..\dl\dist\hr-dl-1.0.jar;..\bl\build\libs\bl.jar;..\pl\build\libs\pl.jar;..\pl\libs\*;. com.thinking.machines.hr.pl.Main```__
 
 **It opens the user interface, allowing you to use all features of the application.**
 
+<p align="center">
+    <img src="https://github.com/yash-ingle/Projects/blob/main/HR%20Management%20System/screenshots/HR_Management_System_V1.png" width="400" height="800">
+</p>
+
 ---
 
-## Version 2\_HR Management System (Java + MySQL)
+## Version 2_HR Management System (Java + MySQL)
 
 ### Database Setup
 
@@ -99,16 +103,29 @@ create table employee
 > **Note:** Ensure that MySQL Server is running on `localhost:3306` before executing the above commands.
 
 ### Build and Run
-Version 2\_HR Management System\\hr\\dbdl>__```gradle build```__\
+Version 2_HR Management System (Java + MySQL)\hr\dbdl>__```gradle build```__\
 **SUCCESSFUL BUILD**
 
-Version 2\_HR Management System\\hr\\bl>__```gradle build```__\
+Version 2_HR Management System (Java + MySQL)\hr\bl>__```gradle build```__\
 **SUCCESSFUL BUILD**
 
-Version 2\_HR Management System\\hr\\pl>__```gradle build```__\
+Version 2_HR Management System (Java + MySQL)\hr\pl>__```gradle build```__\
 **SUCCESSFUL BUILD**
 
-Version 2\_HR Management System\\hr\\pl>__```java -classpath ..\common\dist\hr-common.jar;..\dbdl\build\libs\dbdl.jar;..\dbdl\libs\*;..\bl\build\libs\bl.jar;..\pl\build\libs\pl.jar;..\pl\libs\*;. com.thinking.machines.hr.pl.Main```__
+Version 2_HR Management System (Java + MySQL)\hr\pl>__```java -classpath ..\common\dist\hr-common.jar;..\dbdl\build\libs\dbdl.jar;..\dbdl\libs\*;..\bl\build\libs\bl.jar;..\pl\build\libs\pl.jar;..\pl\libs\*;. com.thinking.machines.hr.pl.Main```__
 
 **It opens the user interface, allowing you to use all features of the application.**
 
+<p align="center">
+    <img src="https://github.com/yash-ingle/Projects/blob/main/HR%20Management%20System/screenshots/HR_Management_System_V2.png" width="400" height="800">
+</p>
+
+---
+
+## System Features
+
+- **Search Bar** – Quickly find designation.
+- **Add** – Create and store new designation record.
+- **Update** – Edit and maintain designation information.
+- **Delete** – Remove designation record from the system.
+- **Export to PDF** – Generate designation report in PDF format.
