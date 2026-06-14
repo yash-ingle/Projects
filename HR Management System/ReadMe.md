@@ -1,4 +1,5 @@
-# Prerequisites
+# How to Use
+## Prerequisites
 Before setting up and running this project, ensure the following software is installed on your system:
 |**Software**|**Required Version**|**Purpose**|
 |:-----------|:-----------------:|:---------|
@@ -6,7 +7,7 @@ Before setting up and running this project, ensure the following software is ins
 |Gradle|9.0.0|Build automation and dependency management|
 |MySQL|8.0.46|Database management system|
 
-## Installation Resources
+### Installation Resources
 
 - Java: [Oracle JDK Downloads](https://www.oracle.com/java/technologies/downloads/)
 
@@ -17,7 +18,7 @@ Before setting up and running this project, ensure the following software is ins
 > **Note:** Java, Gradle, and MySQL environment variables must be configured correctly on the host machine before running this project. Verify that the corresponding executables are accessible from the command line.
 
 ---
-# How to Run
+
 ## Version 1_HR Management System (Java)
 ### Build and Run
 Version 1_HR Management System (Java)\hr\pl>__```gradle build```__\
