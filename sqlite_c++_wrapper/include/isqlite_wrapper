@@ -1,0 +1,24 @@
+#ifndef $__isqlite_wrapper__
+#define $__isqlite_wrapper__ 123
+#include<sqlite_exception>
+#include<sqlite3.h>
+#include<string>
+#include<iostream>
+using namespace std;
+namespace sqlite
+{
+namespace abc
+{
+class ISqliteDB
+{
+public:
+virtual void open(string fileName)=0;
+virtual void executeCreateTable(string &sql)=0;
+virtual void executeInsert(string &sql)=0;
+virtual void executeUpdate(string &sql)=0;
+virtual void executeDelete(string &sql)=0; 
+virtual void close()=0;
+};
+}
+}
+#endif
