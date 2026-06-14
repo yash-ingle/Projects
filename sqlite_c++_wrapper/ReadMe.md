@@ -16,7 +16,20 @@ With features like automatic memory management and easy integration with C++ dat
 - Run `chmod +x createLibrary.sh` and `dos2unix createLibrary.sh`.
 - Run `./createLibrary.sh` (If everything is fine, it will generate `libsqliteWrapper.a` file)
 
+
+### Create the Library
+
+Build the SQLite C++ wrapper library and add it to your project.
+
 <img src="https://github.com/yash-ingle/Projects/blob/main/sqlite_c%2B%2B_wrapper/screenshots/sqlite_c%2B%2B_wrapper_1.png">
+
+### Use the Library
+Include the library in your application and perform database CRUD operations:
+
+- **Create** records
+- **Retrieve** records
+- **Update** records
+- **Delete** records
 
 <img src="https://github.com/yash-ingle/Projects/blob/main/sqlite_c%2B%2B_wrapper/screenshots/sqlite_c%2B%2B_wrapper_2.png">
 
@@ -27,3 +40,5 @@ With features like automatic memory management and easy integration with C++ dat
 <img src="https://github.com/yash-ingle/Projects/blob/main/sqlite_c%2B%2B_wrapper/screenshots/sqlite_c%2B%2B_wrapper_5.png">
 
 <img src="https://github.com/yash-ingle/Projects/blob/main/sqlite_c%2B%2B_wrapper/screenshots/sqlite_c%2B%2B_wrapper_6.png">
+
+> **Note:** Refer to the `sqlite_c++_wrapper/testcases/demo_test_cases` folder for sample **Create**, **Insert**, **Select**, **Update**, and **Delete** implementations. These examples show how to use the library in your own projects.
