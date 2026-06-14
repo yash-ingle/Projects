@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Algolizer</title>
+<script src="js/logger/Logger.js"></script>
+<!--------------------------------------------------------------->
+<link rel="stylesheet" href="css/styleSheet.css">
+<!--------------------------------------------------------------->
+<script src="js/common/utilities.js"></script>
+<script src="js/common/Font.js"></script>
+<script src="js/interfaces/Drawable2DShape.js"></script>
+<script src="js/2DShapes/Rectangle.js"></script>
+<script src="js/2DShapes/Text.js"></script>
+<script src="js/2DShapes/TextRectangle.js"></script>
+<script src="js/2DShapes/TextRectangleArray.js"></script>
+<script Src="js/2Dshapes/Circle.js"></script>
+<script src="js/interfaces/Algorithm.js"></script>
+<script src="js/algorithms/LinearSearch.js"></script>
+<script src="js/algorithms/BinarySearch.js"></script>
+<script src="js/algorithms/DutchNationalFlag.js"></script>
+<script src="js/algorithms/CocktailShakerSort.js"></script>
+<script src="js/algorithms/SieveOfEratosthenes.js"></script>
+<script src="js/Visualizer.js"></script>
+<script src="js/mainScript.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="logo"></div>
+</div>
+<div id="main">
+<div id="leftSection">
+<div id="algorithms">
+<h1>Algorithms</h1>
+<button onclick="linearSearch()" id="algo">Linear Search</button>
+<button onclick="binarySearch()" id="algo">Binary Search</button>
+<button onclick="dutchNationalFlag()" id="algo">Dutch National Flag</button>
+<button onclick="cocktailShakerSort()" id="algo">Cocktail Shaker Sort</button>
+<button onclick="sieveOfEratosthenes()" id="algo">Sieve Of Eratosthenes</button>
+</div>
+</div>
+<div id="rightSection">
+<div id="algoTitle">
+<div id="algoName"></div>
+<div id="useButton" style="display:none">
+<button onclick="startAlgorithm()" id="useBtn">Start</button>
+<button onclick="stopAlgorithm()" id="useBtn">Stop</button>
+<button onclick="getInput()" id="useBtn">User Input</button>
+<!--
+<button onclick="printCurrentAlgorithmState()">State</button>
+<button onclick="clearAll()">Clear All</button>
+-->
+</div>
+</div>
+
+<div id="dataContainer" style="display:none">
+<div id="array">
+<label for="arr" id="a"></label>
+<input type="text" id="val">
+</div>
+<br>
+<div id="element">
+<label for="elem" id="elm"></label>
+<input type="text" id="elem">
+</div>
+<button onclick="submit()" id="submitInput">Submit</button>
+</div>
+<div id="space"></div>
+<!--
+<button onclick="createRectangle()">Create Rectangle</button>
+<button onclick="createText()">Create Text</button>
+<button onclick="createTextRectangle()">Create TextRectangle</button>
+<button onclick="createTextRectangleArray()">Create TextRectangleArray</button>
+<button onclick="createCircle()">Create Circle</button>
+-->
+<div id="canvasWrapper"></div>
+<!--<canvas id="canvas" width=1500 height=650></canvas>-->
+</div>
+</div>
+</body>
+</html>
