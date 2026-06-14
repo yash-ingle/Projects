@@ -1,4 +1,4 @@
-# How to Run
+# How to Use
 ## Prerequisites
 Before setting up and running this project, ensure the following software is installed on your system:
 |**Software**|**Required Version**|**Purpose**|
